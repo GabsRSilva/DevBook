@@ -1,0 +1,31 @@
+.book-list {
+    max-width: 1170px;
+    display: flex;
+    margin: 30px auto;
+    width: 100%;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  
+  /* Estilos para a lista da página inicial /
+  .book-list.home-list {
+    justify-content: space-between;
+    padding: 16px;
+    border-radius: 8px;
+    color: white;
+  }
+  
+  / Estilos para a lista da página Livros */
+  .book-list.books-page-list {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    color: white;
+  }
+  
+  @media only screen and (max-width: 980px) {
+    .book-list {
+      flex-direction: column;
+    }
+  }
+  
